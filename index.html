@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11 Tabelionato</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header class="top-header">
+    <div class="header-container">
+      <div class="logo">
+        <img src="img/WhatsApp Image 2025-10-10 at 14.17.30.jpeg" alt="logo">
+      </div>
+
+      <div class="search-bar">
+        <input type="text" placeholder="O que você procura">
+        <button>Buscar</button>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://web.Whatsapp.com/">W</a>
+        <a href="">I</a>
+        <a href="">E</a>
+      </div>
+    </div>
+
+    <nav class="nav-bar">
+      <a href="#">HOME</a>
+      <a href="#">LEGISLAÇÃO</a>
+      <a href="#">CONTATO</a>
+    </nav>
+   </header>
+
+   
+   <div class="form-container">
+    <div class="comeco">
+      <section class="hero">
+       <div class="title">
+        <p>Trabalhe no 11º</p>
+       </div>
+
+       <div class="text">
+        <p>Para sua segurança desde o momento da inserção dos dados neste site, até sua exclusão, está sendo omnipresente em nosso trabalho diário e é um dos pilares que fazem do 11º o favorito dos consumidores. Após 6 meses, caso não ocorra a contratação de trabalho e o usuário não seja excluído, será necessário um novo cadastro.</p>
+       </div>
+      </section>
+    </div>
+
+    <section class="dados">
+      <h1 class="pessoais">Dados Pessoais</h1>
+
+      <form class="formulario">
+
+        <label for="nome">Nome completo: <span class="required">*</span></label>
+        <input type="text" id="nome" name="nome" required>
+
+        <div class="form-row">
+          <div>
+            <label for="email">E-mail para contato: <span class="required">*</span></label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div>
+            <label for="telefone">Telefone: <span class="required">*</span></label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(DD) 99999-9999" maxlength="14" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="idade">Idade: <span class="required">*</span></label>
+            <input type="number" name="idade" id="idade" required>
+          </div>
+          <div>
+            <label for="estado-civil">Estado Civil <span class="required">*</span></label>
+            <select name="estado-civil" id="estado-civil" required>
+              <option value="">Selecione</option>
+              <option value="solteiro">Solteiro</option>
+              <option value="casado">Casado</option>
+              <option value="divorciado">Divorciado</option>
+              <option value="viuvo">Viúvo</option>
+            </select>
+          </div>
+          <div>
+            <label for="filhos">Número de filhos: <span class="required">*</span></label>
+            <input type="text" id="filhos" name="filhos" placeholder="Ex: 1, 2 e 3." required>
+          </div>
+        </div>
+
+        <label>Sexo: <span class="required">*</span></label>
+        <div class="sexo-opcoes">
+          <label><input type="radio" name="sexo" value="feminino" required>Feminino</label>
+          <label><input type="radio" name="sexo" value="masculino" required>Masculino</label>
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="endereco">Endereço <span class="required">*</span></label>
+            <input type="text" id="endereco" name="endereco" required>
+          </div>
+
+          <div>
+            <label for="numero">Número <span class="required">*</span></label>
+            <input type="text" id="numero" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="complemento">Complemento </label>
+            <input type="text" id="complemento" name="complemento">
+          </div>
+          <div>
+            <label for="cep">CEP <span class="required">*</span></label>
+            <input type="text" name="cep" id="cep" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="bairro">Bairro <span class="required">*</span></label>
+            <input type="text" name="bairro" id="bairro" required>
+          </div>
+          <div>
+            <label for="cidade">Cidade <span class="required">*</span></label>
+            <input type="text" name="cidade" id="cidade" required>
+          </div>
+        </div>
+
+        <label for="escolaridade">Grau de Escolaridade: <span class="required">*</span></label>
+        <input type="text" name="escolaridade" id="escolaridade" placeholder='Ex: "Médio Completo"; "Superior incompleto"' required>
+      </form>
+    </section>
+
+    <section class="superior">
+
+      <form class="formulario">
+        <label for="curso-atual">Se for ESTUDANTE do ensino superior: Qual o curso está fazendo? Semestre? Intituição?</label>
+        <input type="text" id="curso-atual" name="curso-atual"> 
+
+        <label for="curso-concluido">se já tiver CONCLUÍDO o ensino superior: Qual o curso fez? Quando concluiu? Instituição? Pós-Graduação?</label>
+        <input type="text" id="curso-concluido" name="curso-concluido">
+
+        <label>É portador de necessidade especial? <span class="required">*</span></label>
+        <div class="pcd">
+          <label><input type="radio" name="necessidade" value="sim" required>Sim</label>
+          <label><input type="radio" name="necessidade" value="nao" required>Não</label>
+        </div>
+
+        <label for="tipo-necessidade">Se sim informar o tipo de necessidade</label>
+        <input type="text" name="tipo-necessidade" id="tipo-necessidade">
+
+        <label for="parente-cartorio">Possui algum parente trabalhando no cartório? Se sim, por favor informar o nome e o grau de parentesco:</label>
+        <input type="text" name="parente-cartorio" id="parente-cartorio">
+
+        <label for="restricao-trabalho">Possui alguma restrição de dias e horários de trabalho? Se sim informar quais: <span class="required">*</span></label>
+        <input type="text" name="restricao-trabalho" id="restricao-trabalho" required>
+
+        <label for="periodo-dia">Se não pode trabalhar algum período do dia</label>
+        <input type="text" name="periodo-dia" id="periodo-dia">
+      </form>
+    </section>
+
+    <section class="experiencia">
+      <h1 class="pessoais">2-EXPERIÊNCIA PROFISSIONAL</h1>
+
+      <form class="formulario">
+
+        <label>Indique abaixo se já trabalhou na Atividade Notarial ou Registral <span class="required">*</span></label>
+        <div class="checkbox-opcoes">
+          <label><input type="checkbox" name="atividade" value="registro-imoveis">Registro de Imóveis</label>
+          <label><input type="checkbox" name="atividade" value="tabelionato-notas">Tabelionato de Notas</label>
+          <label><input type="checkbox" name="atividade" value="registro-titulos">Registro de Títulos e Documentos</label>
+          <label><input type="checkbox" name="atividade" value="registro-juridicas">Registro Civil de Pessoas Jurídicas</label>
+          <label><input type="checkbox" name="atividade" value="registro-naturais">Registro Civil de Pessoas Naturais</label>
+          <label><input type="checkbox" name="atividade" value="nao-trabalhou">Não trabalhei na atividade Notarial ou Registral</label>
+        </div>
+
+        <label for="ultima">a) Relate quando (início e fim) e onde foi a sua ÚLTIMA oportunidade de trabalho (Indique o nome e telefone de referências) e detalhe em TAREFAS quais funções desempenhava:</label>
+        <textarea name="ultima" id="ultima" rows="5"></textarea>
+        <label for="penultima">b) Relate quando (início e fim) e onde foi a sua PENÚLTIMA oportunidade de trabalho (Indique o nome e telefone de referências) e detalhe em TAREFAS quais funções desempenhava:</label>
+        <textarea name="penultima" id="penultima" rows="5"></textarea>
+
+      </form>
+    </section>
+
+    <section class="autoconhecimento">
+      <h1 class="pessoais">3-AUTO-CONHECIMENTO</h1>
+
+      <form class="formulario">
+        <h2 class="subtitulo">INFORMAÇÕES GERAIS</h2>
+
+        <label for="vaga">Como ficou sabendo da vaga <span class="required">*</span></label>
+        <input type="text" name="vaga" id="vaga" required>
+
+        <label>A que cargo gostaria de se candidatar? <span class="required">*</span></label>
+        <div class="checkbox-opcoes">
+         <label><input type="checkbox" name="cargo" value="atendente">Atendente</label>
+         <label><input type="checkbox" name="cargo" value="auxiliar-adm">Auxiliar Administrativo</label>
+         <label><input type="checkbox" name="cargo" value="auxiliar-registral">Auxiliar Registral</label>
+         <label><input type="checkbox" name="cargo" value="conferente">Conferente</label>
+         <label><input type="checkbox" name="cargo" value="escrevente">Escrevente</label>
+         <label><input type="checkbox" name="cargo" value="gerencia">Gerência/Coordenação</label>
+         <label><input type="checkbox" name="cargo" value="servicos-gerais">Serviços Gerais</label>
+         <label><input type="checkbox" name="cargo" value="outro">Outro</label>
+        </div>
+
+        <label for="cargo-outro">Caso selecionado "Outro", informar o cargo</label>
+        <input type="text" name="cargo-outro" id="cargo-outro">
+
+        <label for="salario">O que você acha que ganha ria se você fosse CONTRATADO pelo 11º Tabelionato de Notas de Porto Alegre? <span class="required">*</span></label>
+        <input type="text" name="salario" id="salario" required>
+
+        <label for="motivo">O que você acha que o 11º Tabelionato de Notas de Porto Alegre ganharia se CONTRATASSE você? <span class="required">*</span></label>
+        <input type="text" name="motivo" id="motivo" required>
+      </form>
+    </section>
+
+    <section class="termo">
+      <h1 class="pessoais">TERMO DE CIÊNCIA</h1>
+
+      <div class="texto-termo">
+            <p>O(A) CANDIDATO(A), titular de dados pessoais, ao preencher os dados neste formulário, em conformidade com a Lei nº 13.709/18 - Lei Geral de Proteção de Dados Pessoais (LGPD), afirma o que segue: <span class="required"></span></p>
+            <p>DECLARO expressamente meu CONSENTIMENTO, para que meus dados pessoais sejam tratados para a finalidade única e exclusiva de realizar as ações relacionadas ao recebimento de currículo, avaliação, seleção e eventual recrutamento para processos de admissão a fim de compor o quadro de colaboradores do 11º Tabelionato de Notas de Porto Alegre. As informações ficarão em nosso banco de currículos pelo período de 2 anos a contar da inclusão dos dados.</p>
+            </div>
+
+            <div class="radio-termo">
+              <label><input type="radio" name="consentimento" value="aceito" required> Concordo com o termo acima</label>
+            </div>
+    </section>
+   </div>
+</body>
+</html>
